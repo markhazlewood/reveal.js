@@ -1,0 +1,47 @@
+/**
+ * Custom theme for reveal.js.
+ * Original: css/theme/source/league.scss
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Theme fonts ------------------------------
+
+// Source Sans Pro
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+// Lato
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+// Montserrat
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+// Bitter
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+// ---------------------------------------------
+
+// Setting overrides ------------------------------
+$mainFont: 'Bitter', sans-serif;
+$mainFontSize: 28px;
+$mainFontWeight: 400;
+
+$headingFont: 'Montserrat', Helvetica, sans-serif;
+$headingFontWeight: 400;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+// ---------------------------------------------
+
+// Background generator
+@mixin bodyBackground()
+{
+	// @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
