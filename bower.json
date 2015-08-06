@@ -12,7 +12,8 @@
     "Hakim El Hattab <hakim.elhattab@gmail.com>"
   ],
   "dependencies": {
-    "headjs": "~0.9.6"
+    "headjs": "~1.0.3",
+    "unsemantic": ">=1.0.1"
   },
   "repository": {
     "type": "git",

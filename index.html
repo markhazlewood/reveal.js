@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/consulting_screenshotWalkthrough.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -29,6 +29,14 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
+		<!-- Responsive grid system -->
+		<!--[if (gt IE 8) | (IEMobile)]><!-->
+	  <link rel="stylesheet" href="../bower_components/unsemantic/assets/stylesheets/unsemantic-grid-responsive.css" />
+		<!--<![endif]-->
+		<!--[if (lt IE 9) & (!IEMobile)]>
+	  	<link rel="stylesheet" href="../bower_components/unsemantic/assets/stylesheets/ie.css" />
+		<![endif]-->
+
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -41,11 +49,17 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+					<div class="grid-container">
+						<div class="mobile-grid-100 grid-50">
+							<h2>Managing audio in Wordpress</h2>
+						</div>
+						<div class="mobile-grid-100 grid-50">
+							<p>
+								<small>Prepared by <a href="http://mhazlewood.org">Mark Hazlewood</a> / <a href="http://twitter.com/mhazlewood">@mhazlewood</a></small>
+								<small>Prepared for <a href="http://acaoregon.org">ACA Oregon</a></small>
+							</p>
+						</div>
+					</div>
 				</section>
 
 				<section>
