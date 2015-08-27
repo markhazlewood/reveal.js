@@ -12,7 +12,7 @@ body {
 .reveal {
 	font-family: $mainFont;
 	font-size: $mainFontSize;
-	font-weight: normal;
+	font-weight: $mainFontWeight;
 	color: $mainColor;
 }
 
@@ -345,5 +345,3 @@ body {
 .reveal .slide-number {
 	color: $linkColor;
 }
-
-

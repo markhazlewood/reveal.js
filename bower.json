@@ -13,7 +13,8 @@
   ],
   "dependencies": {
     "headjs": "~1.0.3",
-    "unsemantic": ">=1.0.1"
+    "unsemantic": ">=1.0.1",
+    "fontawesome": "~4.4.0"
   },
   "repository": {
     "type": "git",
